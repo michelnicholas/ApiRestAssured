@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29a6edb0-b3e7-46a7-b8a0-aa9a416817f4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/ApiSmoke2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/ToDoApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/APISmokeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/APISmokeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ApiSmoke2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ApiSmoke2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/APISmokeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/APISmokeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/ApiSmoke2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/ApiSmoke2.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,8 +37,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="TestNG.ApiSmoke2.verify_github_user_info">
-    <configuration name="APISmokeTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.C:/Users/Miche/AppData/Local/JetBrains/IdeaIC2021.2/temp-testng-customsuite.xml">
+    <configuration name="APISmokeTest.get_list_user" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAssured" />
       <extension name="coverage">
         <pattern>
@@ -43,7 +48,8 @@
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.APISmokeTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="METHOD_NAME" value="get_list_user" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -68,10 +74,68 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C:/Users/Miche/AppData/Local/JetBrains/IdeaIC2021.2/temp-testng-customsuite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="$USER_HOME$/AppData/Local/JetBrains/IdeaIC2021.2/temp-testng-customsuite.xml" />
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.ToDoApp" />
+      <option name="METHOD_NAME" value="register_a_new_user" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ToDoApp.register_a_new_user (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.ToDoApp" />
+      <option name="METHOD_NAME" value="register_a_new_user" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ToDoApp.register_a_new_user" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.ToDoApp" />
+      <option name="METHOD_NAME" value="register_a_new_user" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/Miche/AppData/Local/JetBrains/IdeaIC2021.2/temp-testng-customsuite.xml" />
+        <item itemvalue="TestNG.ToDoApp.register_a_new_user (1)" />
+        <item itemvalue="TestNG.ToDoApp.register_a_new_user" />
+        <item itemvalue="TestNG.APISmokeTest.get_list_user" />
         <item itemvalue="TestNG.ApiSmoke2.verify_github_user_info" />
-        <item itemvalue="TestNG.APISmokeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -96,5 +160,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
